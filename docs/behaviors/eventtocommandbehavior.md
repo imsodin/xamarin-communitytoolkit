@@ -29,7 +29,7 @@ When using this behavior with selection or tap events exposed by `ListView` an a
 
 ```xml
 <ListView.Behaviors>
-    <behaviors:EventToCommandBehavior
+    <xct:EventToCommandBehavior
         EventName="ItemSelected"
         Command="{Binding ItemSelectedCommand}"
         EventArgsConverter="{StaticResource ItemSelectedEventArgsConverter}"
@@ -39,7 +39,7 @@ When using this behavior with selection or tap events exposed by `ListView` an a
 
 ```xml
 <ListView.Behaviors>
-    <behaviors:EventToCommandBehavior
+    <xct:EventToCommandBehavior
         EventName="ItemTapped"
         Command="{Binding ItemTappedCommand}"
         EventArgsConverter="{StaticResource ItemTappedEventArgsConverter}"
